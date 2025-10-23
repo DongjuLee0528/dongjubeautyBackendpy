@@ -1,1 +1,29 @@
 res/train
+
+# Virtual environments
+face_test_env/
+venv/
+env/
+.env
+
+# Model files
+*.h5
+*.pkl
+*.model
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
