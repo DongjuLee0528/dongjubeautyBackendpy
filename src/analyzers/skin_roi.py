@@ -8,9 +8,9 @@ import numpy as np
 
 # Landmark clusters roughly corresponding to cheeks and forehead in Face Mesh.
 ROI_LANDMARKS: Mapping[str, Iterable[int]] = {
-    "left_cheek": (234, 93, 137, 132, 58),
-    "right_cheek": (454, 323, 366, 361, 288),
-    "forehead": (10, 338, 297, 332, 9),
+    "left_cheek": (234, 93, 132, 58, 172),     # 오른쪽 얼굴 (사용자 기준 왼쪽)
+    "right_cheek": (454, 323, 361, 288, 397),  # 왼쪽 얼굴 (사용자 기준 오른쪽) - 366 제거, 397 추가
+    "forehead": (10, 338, 297, 332),           # 9 제거 (중복)
 }
 
 DEFAULT_PATCH_SIZE = 32

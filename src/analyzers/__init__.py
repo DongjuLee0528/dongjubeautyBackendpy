@@ -4,6 +4,7 @@ from .personal_color import (  # noqa: F401
     PersonalColorAnalyzer,
     THRESHOLDS,
     classify_from_metrics,
+    classify_with_confidence,
 )
 
 from .face_shape import (  # noqa: F401

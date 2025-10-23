@@ -56,12 +56,12 @@ def load_image_to_bgr(
 def _get_face_mesh() -> mp.solutions.face_mesh.FaceMesh:
     """Create (and memoize) the MediaPipe FaceMesh graph."""
 
-    logger.info("Initialising MediaPipe FaceMesh")
+    logger.info("Initialising MediaPipe FaceMesh (CPU mode)")
     return mp.solutions.face_mesh.FaceMesh(
         static_image_mode=True,
         max_num_faces=1,
         refine_landmarks=True,
-        min_detection_confidence=0.5,
+        min_detection_confidence=0.4,  # NAS 환경에서 낮춤
     )
 
 
