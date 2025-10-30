@@ -1,0 +1,681 @@
+{
+  "basic_info": {
+    "total_images": 500,
+    "class_counts": {
+      "heart": 100,
+      "oblong": 100,
+      "oval": 100,
+      "round": 100,
+      "square": 100
+    },
+    "balanced": true
+  },
+  "face_detection": {
+    "failed_detection": [
+      {
+        "path": "../faceshape-master/published_dataset/heart/img_no_36.jpg",
+        "class": "heart",
+        "reason": "No face detected"
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oval/img_no_292.jpg",
+        "class": "oval",
+        "reason": "No face detected"
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oval/img_no_296.jpg",
+        "class": "oval",
+        "reason": "No face detected"
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_313.jpg",
+        "class": "round",
+        "reason": "No face detected"
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_348.jpg",
+        "class": "round",
+        "reason": "No face detected"
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_319.jpg",
+        "class": "round",
+        "reason": "No face detected"
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_326.jpg",
+        "class": "round",
+        "reason": "No face detected"
+      }
+    ],
+    "multiple_faces": [
+      {
+        "path": "../faceshape-master/published_dataset/heart/img_no_59.jpg",
+        "class": "heart",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/heart/img_no_70.jpg",
+        "class": "heart",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/heart/img_no_48.jpg",
+        "class": "heart",
+        "face_count": 3
+      },
+      {
+        "path": "../faceshape-master/published_dataset/heart/img_no_75.jpg",
+        "class": "heart",
+        "face_count": 4
+      },
+      {
+        "path": "../faceshape-master/published_dataset/heart/img_no_90.jpg",
+        "class": "heart",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/heart/img_no_40.jpg",
+        "class": "heart",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/heart/img_no_97.jpg",
+        "class": "heart",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/heart/img_no_24.jpg",
+        "class": "heart",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/heart/img_no_25.jpg",
+        "class": "heart",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/heart/img_no_1.jpg",
+        "class": "heart",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/heart/img_no_33.jpg",
+        "class": "heart",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_115.jpg",
+        "class": "oblong",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_114.jpg",
+        "class": "oblong",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_103.jpg",
+        "class": "oblong",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_159.jpg",
+        "class": "oblong",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_161.jpg",
+        "class": "oblong",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_160.jpg",
+        "class": "oblong",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_179.jpg",
+        "class": "oblong",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_146.jpg",
+        "class": "oblong",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_191.jpg",
+        "class": "oblong",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_190.jpg",
+        "class": "oblong",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_195.jpg",
+        "class": "oblong",
+        "face_count": 3
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_154.jpg",
+        "class": "oblong",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_197.jpg",
+        "class": "oblong",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_127.jpg",
+        "class": "oblong",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_133.jpg",
+        "class": "oblong",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_125.jpg",
+        "class": "oblong",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oval/img_no_265.jpg",
+        "class": "oval",
+        "face_count": 4
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oval/img_no_270.jpg",
+        "class": "oval",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oval/img_no_300.jpg",
+        "class": "oval",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oval/img_no_214.jpg",
+        "class": "oval",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oval/img_no_235.jpg",
+        "class": "oval",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oval/img_no_247.jpg",
+        "class": "oval",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oval/img_no_257.jpg",
+        "class": "oval",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oval/img_no_282.jpg",
+        "class": "oval",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_315.jpg",
+        "class": "round",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_363.jpg",
+        "class": "round",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_385.jpg",
+        "class": "round",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_393.jpg",
+        "class": "round",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_356.jpg",
+        "class": "round",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_394.jpg",
+        "class": "round",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_336.jpg",
+        "class": "round",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/square/img_no_460.jpg",
+        "class": "square",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/square/img_no_459.jpg",
+        "class": "square",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/square/img_no_458.jpg",
+        "class": "square",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/square/img_no_401.jpg",
+        "class": "square",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/square/img_no_403.jpg",
+        "class": "square",
+        "face_count": 3
+      },
+      {
+        "path": "../faceshape-master/published_dataset/square/img_no_402.jpg",
+        "class": "square",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/square/img_no_412.jpg",
+        "class": "square",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/square/img_no_407.jpg",
+        "class": "square",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/square/img_no_405.jpg",
+        "class": "square",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/square/img_no_469.jpg",
+        "class": "square",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/square/img_no_441.jpg",
+        "class": "square",
+        "face_count": 3
+      },
+      {
+        "path": "../faceshape-master/published_dataset/square/img_no_454.jpg",
+        "class": "square",
+        "face_count": 2
+      },
+      {
+        "path": "../faceshape-master/published_dataset/square/img_no_486.jpg",
+        "class": "square",
+        "face_count": 2
+      }
+    ]
+  },
+  "image_quality": {
+    "low_quality": [
+      {
+        "path": "../faceshape-master/published_dataset/heart/img_no_10.jpg",
+        "class": "heart",
+        "reason": "Too blurry",
+        "blur_score": 85.12027048469324
+      },
+      {
+        "path": "../faceshape-master/published_dataset/heart/img_no_17.jpg",
+        "class": "heart",
+        "reason": "Too blurry",
+        "blur_score": 47.15655172131559
+      },
+      {
+        "path": "../faceshape-master/published_dataset/heart/img_no_99.jpg",
+        "class": "heart",
+        "reason": "Too blurry",
+        "blur_score": 40.40866478328124
+      },
+      {
+        "path": "../faceshape-master/published_dataset/heart/img_no_46.jpg",
+        "class": "heart",
+        "reason": "Too blurry",
+        "blur_score": 98.14409532909875
+      },
+      {
+        "path": "../faceshape-master/published_dataset/heart/img_no_50.jpg",
+        "class": "heart",
+        "reason": "Too blurry",
+        "blur_score": 80.25413119651434
+      },
+      {
+        "path": "../faceshape-master/published_dataset/heart/img_no_42.jpg",
+        "class": "heart",
+        "reason": "Too blurry",
+        "blur_score": 67.40904181555425
+      },
+      {
+        "path": "../faceshape-master/published_dataset/heart/img_no_34.jpg",
+        "class": "heart",
+        "reason": "Poor lighting",
+        "brightness": 228.37499210110585
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_200.jpg",
+        "class": "oblong",
+        "reason": "Too blurry",
+        "blur_score": 52.823253844081655
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_160.jpg",
+        "class": "oblong",
+        "reason": "Too blurry",
+        "blur_score": 65.42263383582838
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_178.jpg",
+        "class": "oblong",
+        "reason": "Too blurry",
+        "blur_score": 72.01545797873301
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_185.jpg",
+        "class": "oblong",
+        "reason": "Too blurry",
+        "blur_score": 61.81494959029798
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_184.jpg",
+        "class": "oblong",
+        "reason": "Too blurry",
+        "blur_score": 52.823253844081655
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_153.jpg",
+        "class": "oblong",
+        "reason": "Too blurry",
+        "blur_score": 89.83090756039937
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_124.jpg",
+        "class": "oblong",
+        "reason": "Too blurry",
+        "blur_score": 69.24210271378331
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oval/img_no_289.jpg",
+        "class": "oval",
+        "reason": "Too blurry",
+        "blur_score": 78.59644261717632
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oval/img_no_230.jpg",
+        "class": "oval",
+        "reason": "Too blurry",
+        "blur_score": 38.73750125712877
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oval/img_no_208.jpg",
+        "class": "oval",
+        "reason": "Too blurry",
+        "blur_score": 59.65858821679402
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oval/img_no_220.jpg",
+        "class": "oval",
+        "reason": "Too blurry",
+        "blur_score": 48.51621157394178
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oval/img_no_222.jpg",
+        "class": "oval",
+        "reason": "Too blurry",
+        "blur_score": 65.61886674989724
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oval/img_no_236.jpg",
+        "class": "oval",
+        "reason": "Too blurry",
+        "blur_score": 96.2079727826918
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oval/img_no_293.jpg",
+        "class": "oval",
+        "reason": "Too blurry",
+        "blur_score": 54.77123467198285
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oval/img_no_295.jpg",
+        "class": "oval",
+        "reason": "Too blurry",
+        "blur_score": 63.07635989760004
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oval/img_no_297.jpg",
+        "class": "oval",
+        "reason": "Too blurry",
+        "blur_score": 83.91885512778396
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_310.jpg",
+        "class": "round",
+        "reason": "Too blurry",
+        "blur_score": 82.98568772233499
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_312.jpg",
+        "class": "round",
+        "reason": "Too blurry",
+        "blur_score": 54.65132887542333
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_313.jpg",
+        "class": "round",
+        "reason": "Too blurry",
+        "blur_score": 43.52034645911504
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_315.jpg",
+        "class": "round",
+        "reason": "Too blurry",
+        "blur_score": 73.56260111146088
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_366.jpg",
+        "class": "round",
+        "reason": "Too blurry",
+        "blur_score": 82.54883156310923
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_349.jpg",
+        "class": "round",
+        "reason": "Too blurry",
+        "blur_score": 96.34816220556885
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_388.jpg",
+        "class": "round",
+        "reason": "Too blurry",
+        "blur_score": 14.669113001058111
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_384.jpg",
+        "class": "round",
+        "reason": "Too blurry",
+        "blur_score": 61.88665038235733
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_391.jpg",
+        "class": "round",
+        "reason": "Too blurry",
+        "blur_score": 63.78613155049426
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_350.jpg",
+        "class": "round",
+        "reason": "Too blurry",
+        "blur_score": 90.1003676132778
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_393.jpg",
+        "class": "round",
+        "reason": "Too blurry",
+        "blur_score": 89.82239199484452
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_369.jpg",
+        "class": "round",
+        "reason": "Too blurry",
+        "blur_score": 37.15050097823697
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_382.jpg",
+        "class": "round",
+        "reason": "Too blurry",
+        "blur_score": 96.6027967834235
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_383.jpg",
+        "class": "round",
+        "reason": "Too blurry",
+        "blur_score": 50.86771163197554
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_342.jpg",
+        "class": "round",
+        "reason": "Too blurry",
+        "blur_score": 65.68441564493196
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_381.jpg",
+        "class": "round",
+        "reason": "Too blurry",
+        "blur_score": 92.87419823172495
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_319.jpg",
+        "class": "round",
+        "reason": "Too blurry",
+        "blur_score": 22.72132748604394
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_327.jpg",
+        "class": "round",
+        "reason": "Too blurry",
+        "blur_score": 89.68211775170901
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_332.jpg",
+        "class": "round",
+        "reason": "Too blurry",
+        "blur_score": 79.546908413051
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_308.jpg",
+        "class": "round",
+        "reason": "Too blurry",
+        "blur_score": 90.53679370547837
+      },
+      {
+        "path": "../faceshape-master/published_dataset/square/img_no_471.jpg",
+        "class": "square",
+        "reason": "Too blurry",
+        "blur_score": 24.990406457061866
+      },
+      {
+        "path": "../faceshape-master/published_dataset/square/img_no_499.jpg",
+        "class": "square",
+        "reason": "Too blurry",
+        "blur_score": 72.77339009539693
+      },
+      {
+        "path": "../faceshape-master/published_dataset/square/img_no_498.jpg",
+        "class": "square",
+        "reason": "Too blurry",
+        "blur_score": 91.31311257964593
+      },
+      {
+        "path": "../faceshape-master/published_dataset/square/img_no_473.jpg",
+        "class": "square",
+        "reason": "Too blurry",
+        "blur_score": 93.80000419634047
+      },
+      {
+        "path": "../faceshape-master/published_dataset/square/img_no_410.jpg",
+        "class": "square",
+        "reason": "Too blurry",
+        "blur_score": 72.53724881325444
+      },
+      {
+        "path": "../faceshape-master/published_dataset/square/img_no_408.jpg",
+        "class": "square",
+        "reason": "Too blurry",
+        "blur_score": 89.1422329509405
+      },
+      {
+        "path": "../faceshape-master/published_dataset/square/img_no_443.jpg",
+        "class": "square",
+        "reason": "Too blurry",
+        "blur_score": 93.51386593480849
+      },
+      {
+        "path": "../faceshape-master/published_dataset/square/img_no_478.jpg",
+        "class": "square",
+        "reason": "Too blurry",
+        "blur_score": 98.80117350609464
+      },
+      {
+        "path": "../faceshape-master/published_dataset/square/img_no_445.jpg",
+        "class": "square",
+        "reason": "Too blurry",
+        "blur_score": 73.69402445555386
+      }
+    ],
+    "size_issues": []
+  },
+  "duplicates": [
+    [
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_200.jpg",
+        "class": "oblong"
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oblong/img_no_184.jpg",
+        "class": "oblong"
+      }
+    ],
+    [
+      {
+        "path": "../faceshape-master/published_dataset/oval/img_no_267.jpg",
+        "class": "oval"
+      },
+      {
+        "path": "../faceshape-master/published_dataset/oval/img_no_218.jpg",
+        "class": "oval"
+      }
+    ],
+    [
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_307.jpg",
+        "class": "round"
+      },
+      {
+        "path": "../faceshape-master/published_dataset/round/img_no_372.jpg",
+        "class": "round"
+      }
+    ]
+  ],
+  "model_confidence": {
+    "analyzed": false
+  }
+}

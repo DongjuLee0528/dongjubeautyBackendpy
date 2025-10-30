@@ -1,0 +1,17 @@
+{
+  "model_version": "large_3000",
+  "training_samples": 2250,
+  "test_samples": 750,
+  "test_accuracy": 0.7413333333333333,
+  "cv_mean": 0.7106666666666667,
+  "cv_std": 0.0224960901952778,
+  "feature_dimension": 4410,
+  "classes": [
+    "heart",
+    "oblong",
+    "oval",
+    "round",
+    "square"
+  ],
+  "data_augmentation": true
+}
